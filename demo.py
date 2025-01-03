@@ -7,7 +7,7 @@ from keras.models import load_model
 # Load the pre-trained model
 @st.cache_resource
 def load_trained_model():
-    return load_model('age_detection_model.h5')
+    return load_model('age_detection_cnn.h5')
 
 
 # Preprocess the uploaded or captured image
